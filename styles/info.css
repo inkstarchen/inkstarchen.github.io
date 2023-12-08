@@ -1,0 +1,16 @@
+html{
+    margin:0 auto;
+    padding:0;
+}
+body{
+    background-color: #e3fdfd;
+    margin:0 auto;
+    padding:0;
+}
+
+.head{
+    width: 1481px;
+    height: 75px;
+    background-color: #a6e3e9;
+    position: fixed;
+}

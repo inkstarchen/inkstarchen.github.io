@@ -1,0 +1,6 @@
+.border{
+    border:2px solid black;
+    background-image:linear-gradient(rgb(0, 255, 183) 0%,rgb(30, 255, 0) 100%);
+    border-collapse: collapse;
+    height: 80px;
+}
