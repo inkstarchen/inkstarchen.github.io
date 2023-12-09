@@ -4,29 +4,12 @@ html{
     cursor:url("images/Arrow.png"),default;
 }
 
-a:hover{
-    cursor:url("images/AppStarting.png"),progress;
-}
-
 body{
-    background-color: #e3fdfd;
+    background-color: #212121;
     margin:0 auto;
     padding:0;
 }
 
-.left:hover {
-    background-color: #87e7d5;
-    transition-duration: 0.8s;
-}
-
-.left{
-    position: absolute;
-    top:250px;
-    left:20px;
-    height: 200px;
-    width: 40px;
-    background-color: #a1eadd;
-}
 
 .info_img{
     height: 100%;
@@ -42,10 +25,6 @@ body{
     left:800px;
 }
 
-.play{
-    margin-top:20px;
-    margin-left: -280px;
-}
 
 .name{
     font-size: 45px;
@@ -53,17 +32,12 @@ body{
 }
 
 .name h1{
-    color: #40514e;
+    color: #ffffff;
     margin-top: 200px;
 }
 
 .name h1:hover{
     color:#71c9ce;
-}
-
-#canvas{
-    width: 400px;
-    height: 300px;
 }
 
 .to_note{
@@ -99,7 +73,6 @@ body{
     width:500px;
     border: 8px solid #71c9ce;
     border-radius: 250px;
-    box-shadow: 0px 0px 200px #71c9ce;
 }
 
 .info_img_info{
@@ -118,41 +91,6 @@ body{
 
 .info_img img{
     animation: lin 20s cubic-bezier(0.1,0.1,0.1,0.1) 0s infinite;
-}
-@-o-keyframes lin {
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(360deg);
-    }
-
-}
-@-webkit-keyframes lin{
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(360deg);
-    }
-}
-
-@-moz-keyframes lin{
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(360deg);
-    }
-}
-
-@-moz-keyframes lin{
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(360deg);
-    }
 }
 
 @keyframes lin{
