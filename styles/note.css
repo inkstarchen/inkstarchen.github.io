@@ -120,6 +120,11 @@ body{
     letter-spacing: 1px;
 }
 
+.main_navi ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+
 .main_content{
     padding-left: 40px;
     padding-right: 40px;
