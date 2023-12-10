@@ -135,6 +135,7 @@ body{
     background-color: #eaeff7;
     border-radius: 10px;
     margin-bottom: 20px;
+    padding-bottom: 60px;
 }
 
 .side{
@@ -195,7 +196,7 @@ body{
     width: 1482px;
     background-color: #2474eb;
     height: 50px;
-    position:absolute;
-    top:2000px;
+    position: fixed;
+    bottom: 0;
     z-index: 1;
 }
